@@ -51,7 +51,7 @@ button {
 
 }
 .feature h1{
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
     margin-bottom: 20px;
     text-align: center;
@@ -102,4 +102,153 @@ button {
 }
 a{
     color: #000;
+}
+
+.icon-wrap{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #E3EBDB;
+  padding: 80px 0px;
+}
+.icon-box img{
+    width: 70px;
+}
+.icon-box p{
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* end of the icon box design  */
+/* Start hot deal css  */
+
+.hot-deal{
+    padding: 50px 10%;
+    background-color: #FCEEF1;
+    margin: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot-content h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.hot-content h2 span{
+    color: #E55473;
+}
+/* end of the hot deal section  */
+/* start css with Instagram section  */
+
+.instagram h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.instagram p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.images-box{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    margin: 0 auto;
+}
+.images-box img{
+    flex-basis: 30%;
+}
+.images-box .gallery{
+    width: 250px;
+}
+.newsletter{
+    width: 80%;
+    padding: 80px;
+    background-image: url("img/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+
+}
+.newsletter h2{
+    font-size: 35x;
+    color: #313131;
+    margin-bottom: 10px;
+
+}
+.newsletter h2{
+    text-align: center;
+}
+.newsletter p{
+    text-align: center;
+}
+.input-field{
+    text-align: center;
+}
+input#email {
+    width: 380px;
+    padding: 15px 15px;
+    border: none;
+    margin-top: 30px;
+    outline: none;
+}
+/* end of the newsletter secion  */
+/* start css footer section  */
+footer{
+    margin: 80px 0px 0px 0px;
+    padding: 50px 0px;
+    background-color: #000;
+    color: #E3EBDB;
+    text-align: center;
+
+}
+footer h1{
+    font-size: 35x;
+    color: #E55473;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+footer h1 span{
+    color: #Fff;
+}
+footer p{
+    font-size: 15px;
+    color: #ddd;
+}
+.copywrie{
+    font-size: 12px;
+    color: #504f4f;
+    margin-top: 15px;
+}
+/* extra section css  */
+.extra{
+    width: 100%;
+    display: flex;
+    margin-bottom: 80px;
+}
+.extra-left{
+    padding: 160px 0px 160px 10%;
+    width: 50%;
+    background-image: linear-gradient(rgba(252, 174, 174, 0.4), rgba(252, 174, 174, 0.3)), url("img/h1-bg5.png");
+
+}
+.extra-left h2{
+ font-size: 35px;
+ margin: 10px 0px;
+}
+.extra-right{
+    background-image: url("img/h1-banner9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
 }
